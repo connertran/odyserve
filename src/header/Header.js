@@ -27,7 +27,7 @@ function Header() {
         <video
           className="Header-video"
           controls
-          src="https://odyserve.eu-central-1.linodeobjects.com/5201210-hd_1920_1080_30fps.mp4"
+          src="https://odyserve.eu-central-1.linodeobjects.com/Tailwind-in-100-Seconds-testing.mp4"
           type="video/mp4"
           controlsList="nodownload"
         ></video>
