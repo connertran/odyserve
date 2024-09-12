@@ -29,6 +29,7 @@ function Header() {
           controls
           src="https://odyserve.eu-central-1.linodeobjects.com/Tailwind-in-100-Seconds-testing.mp4"
           type="video/mp4"
+          autoPlay
           controlsList="nodownload"
         ></video>
       </motion.div>

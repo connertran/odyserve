@@ -14,6 +14,7 @@ function Short({ url, vidNum, vidStyleNum }) {
         autoPlay
         muted
         loop
+        playsInline
         controlsList="nodownload"
       ></video>
     </>
