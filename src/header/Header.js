@@ -19,7 +19,7 @@ function Header() {
         animate="visible"
         variants={h1Variants}
       >
-        <span className="Header-line1">Transforming LOL Lessons</span>
+        <span className="Header-line1">Transforming Lessons</span>
         <br />
         <span className="Header-line2">Into Visual Masterpieces</span>
       </motion.h1>
