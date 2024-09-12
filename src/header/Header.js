@@ -19,20 +19,19 @@ function Header() {
         animate="visible"
         variants={h1Variants}
       >
-        <span className="Header-line1">Transforming Lessons</span>
+        <span className="Header-line1">Transforming LOL Lessons</span>
         <br />
         <span className="Header-line2">Into Visual Masterpieces</span>
       </motion.h1>
-      <motion.video
-        className="Header-video"
-        controls
-        src="https://odyserve.eu-central-1.linodeobjects.com/5201210-hd_1920_1080_30fps.mp4"
-        type="video/mp4"
-        controlsList="nodownload"
-        initial="hidden"
-        animate="visible"
-        variants={iframeVariants}
-      ></motion.video>
+      <motion.div variants={iframeVariants} initial="hidden" animate="visible">
+        <video
+          className="Header-video"
+          controls
+          src="https://odyserve.eu-central-1.linodeobjects.com/5201210-hd_1920_1080_30fps.mp4"
+          type="video/mp4"
+          controlsList="nodownload"
+        ></video>
+      </motion.div>
     </div>
   );
 }
